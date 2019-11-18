@@ -1,0 +1,80 @@
+.nav-ul{
+	list-style: none;
+	align-items: center;
+}
+
+.ul-item a{
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+@media screen and (min-width: 993px){
+	.ul-item a:focus{
+		color:red;
+		border-bottom: 1px solid #fc0000;
+	}
+	.item-link:hover{
+		border-bottom: 1px solid #fc0000;
+		color: #fc0000;
+	}
+}
+
+.ul-item {
+	background-color: inherit;
+}
+
+.item-link{
+	color: black;
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.1rem;
+	outline: none;
+}
+
+.item-link-logo {
+	width: 16rem;
+}
+
+.nav-logo-img {
+	width: 11rem;
+}
+
+@media screen and (max-width: 991px){
+	.ul-item-del-logo{
+ 		display: none;
+ 	}
+	.ul-item {
+		width: 100%;
+	}
+	.ul-item a {
+		width: 100%;
+		display: block;		
+	}
+	.ul-item a:focus{
+		color:red;
+		text-shadow: 1px 1px black;
+	}
+	.ul-item a:hover{
+		color:red;
+	}
+	.fas {
+		color: black;
+	}
+	.navbar-toggler:focus .fas{
+		color: red;
+	}
+}
+
+.form-controls:focus {
+    color: #495057;
+    background-color: 0 0 0 0.8rem rgba(241, 127, 134, 0.22);
+    border-color: white;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(247, 175, 175, 0.25);
+}
+
